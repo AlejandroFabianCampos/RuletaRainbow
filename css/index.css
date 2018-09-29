@@ -1,0 +1,14 @@
+#container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#titulo {
+    grid-column: 1 / 3;
+    text-align: center;
+}
+
+#subtitulo {
+    grid-column: 1/3;
+    text-align: center;
+}
